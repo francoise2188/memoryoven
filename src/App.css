@@ -2218,9 +2218,10 @@ button.book-sticky-note--pick.book-sticky-note--selected:hover {
   border-radius: 6px;
   background: transparent;
   color: #4a2412;
-  font-family: Georgia, serif;
-  font-size: clamp(14px, 1.6vw, 17px);
-  line-height: 1.42;
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: clamp(calc(14px + 2pt), calc(1.65vw + 2pt), calc(17px + 2pt));
+  font-weight: 600;
+  line-height: 1.38;
   text-align: left;
   cursor: pointer;
   transition: background 180ms ease, box-shadow 180ms ease;
@@ -2324,10 +2325,10 @@ button.book-sticky-note--pick.book-sticky-note--selected:hover {
 .recipe-portrait-heading {
   margin: 0 0 6px;
   color: #8d5a35;
-  font-family: Georgia, serif;
+  font-family: 'Fraunces', Georgia, serif;
   font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.2em;
+  font-weight: 600;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
 }
 
@@ -2336,9 +2337,10 @@ button.book-sticky-note--pick.book-sticky-note--selected:hover {
   margin: 0;
   padding-left: 18px;
   color: #4a2412;
-  font-family: Georgia, serif;
-  font-size: clamp(14px, 1.6vw, 17px);
-  line-height: 1.42;
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: clamp(calc(14px + 2pt), calc(1.65vw + 2pt), calc(17px + 2pt));
+  font-weight: 600;
+  line-height: 1.38;
 }
 
 .recipe-portrait-list li,
